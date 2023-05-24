@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
+*{
+    font-family: "Titillium Web";
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* INICIO */
+.inicio{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("fondo.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+.inicio .contenido{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+.inicio .contenido header{
+    padding: 30px;
+}
+/* MENU */
+.inicio .contenido header nav{
+    position: fixed;
+    margin-left: 60px;
+    background-color: #940253;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+}
+.inicio .contenido header nav a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.inicio .contenido header .nav-bar{
+    position: fixed;
+    background-color: #940253;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+.inicio .contenido .info{
+    padding-bottom: 130px;
+}
+.inicio .contenido .info h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+.inicio .contenido .info h2{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+}
+.inicio .contenido .info .redes{
+    margin: 20px 0;
+}
+.inicio .contenido .info .redes a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #000;
+    color: #940253;
+    border: 1px solid #940253;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+}
+.inicio .contenido .foto{
+    position: relative;
+}
+.inicio .contenido .foto img{
+    max-width: 200px;
+    border-radius: 50%;
+    border: 5px solid #940253;
+    position: absolute;
+    left: 50%;
+    top: -100px;
+    transform: translateX(-50%);
+}
+/* ESTILOS GENERALES */
+.titulo{
+    font-family: "Copperplate Gothic";
+    font-size: 1.5rem;
+}
+/* SOBRE MI */
+.sobremi{
+    background-color: #e6e6e6;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.sobremi .contenido{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.sobremi .contenido h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.sobremi .contenido .especial{
+    color: #940253;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.sobremi .contenido p{
+    max-width: 700px;
+    margin: auto;
+    color: #666;
+}
+.sobremi .contenido .row{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.sobremi .contenido .row .col{
+    width: 30%;
+}
+.sobremi .contenido .row .col i{
+    color: #940253;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #940253;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.sobremi .contenido .fila .col span{
+    display: block;
+    font-weight: bold;
+    margin: 8px 0;
+}
+/* HABILIDADES */
+.habilidades{
+    padding: 80px 0 100px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("habilidades.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: #fff;
+}
+.habilidades .contenido{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.habilidades .contenido h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.items{
+    padding-top: 60px;
+}
+.barra{
+    padding-top: 20px;
+}
+
+.table{
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+.table .datos{
+    width: 40%;
+    border-bottom: 1px solid #bab9b9;
+}
+.table h4{
+    margin-top: 10px;
+}
+.table h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.table p{
+    font-size: 14px;
+}
+.table .promedio{
+    display: block;
+    color: #940253;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.table .descripcion{
+    border-left: 1px solid #bab9b9;
+    padding-left: 5px;
+}
+.estudio{
+    padding-top: 3%;
+}
+/* CONTACTO */
+.contacto{
+    background-color: #202020;
+    padding: 140px 0 100px 0;
+    color: #e6e6e6;
+    text-align: center;
+}
+.contacto .contenido{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.contacto .contenido h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.contacto .contenido .row{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto .contenido .row .col{
+    margin-top: 50px;
+}
+.contacto .contenido .row .col h2{
+    color: #940253;
+}
